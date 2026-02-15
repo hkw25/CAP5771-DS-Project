@@ -1,0 +1,5 @@
+Data Acquisition II: Database Storage
+
+Overview:
+After acquiring and cleaning the raw CSV datasets (Air Quality, Demographics, Cancer, and Income), the next step was to store the data in the database. 
+I chose to use an SQLite database (aqi_project.db) because it integrates seamlessly with Python and Pandas, and allows for efficient SQL querying.
