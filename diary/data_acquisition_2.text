@@ -2,9 +2,15 @@ Data Acquisition II: Database Storage
 
 Overview:
 After acquiring and cleaning the raw CSV datasets (Air Quality, Demographics, Cancer, and Income), the next step was to store the data in the database. 
-I chose to use an SQLite database (aqi_project.db) because it integrates seamlessly with Python and Pandas, and allows for efficient SQL querying.
+We chose to use an SQLite database (aqi_project.db) because it integrates seamlessly with Python and Pandas, and allows for efficient SQL querying.
 
 Database Schema:
-- Primary table: counties. This is the central table. It contains the fips code as the Primary Key, along with county_name and state_name.
-- Secondary tables: demographics, air_quality, health, income.
+- Primary table: counties. This is the central table. It contains the fips codes which are unique identifiers for geographic areas in the U.S., 
+                 we use it as the Primary Key, along with county_name and state_name.
+- Secondary tables: demographics, air_quality, health, income. 
 - Relationship: Each secondary table uses the fips code as a Foreign Key that connects directly back to the counties table.
+
+Data Insertion: 
+- To prevent integrity error caused by duplicate fips codes, we applied .drop_duplicates(subset=['fips']) to the DataFrames 
+  before insertion to guarantee every row was unique.
+- Data with invalid fips values, not existing in the counties table were filtered before insertion to avoid foreign key violations.
