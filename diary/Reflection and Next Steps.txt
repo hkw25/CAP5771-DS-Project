@@ -1,7 +1,13 @@
 ﻿Reflection:
 
 
-For project milestone 1, we discovered and accomplished a lot. We made a complete SQL database and CSV exports for accessibility. We also have comprehensive documentation and visualizations. Some of our key findings are that income matters more than air quality and that environmental justice is confirmed as poorer counties have worse air quality. Income shows a stronger relationship with cancer than air quality. Environmental injustice exists as low-income counties face a double burden of poor health and poor environmental conditions. Some problems that came up is that we are missing smoking data as that can contribute to lung cancer risk factors. And, we currently can’t establish causation, but only correlation.
+For project milestone 1, we discovered and accomplished a lot. We made a complete SQL database and CSV exports for accessibility. 
+We also have comprehensive documentation and visualizations. 
+Some of our key findings are that income matters more than air quality and that environmental justice is confirmed as poorer counties have worse air quality. 
+Income shows a stronger relationship with cancer than air quality. 
+Environmental injustice exists as low-income counties face a double burden of poor health and poor environmental conditions. 
+Some problems that came up is that we are missing smoking data as that can contribute to lung cancer risk factors. 
+And, we currently can’t establish causation, but only correlation.
 
 
 Next steps:
@@ -12,4 +18,5 @@ Next steps:
 * Regional comparisons (Northeast, South, Midwest, West)
 * Create interactive dashboard with county lookup
 * Add geographic maps 
+
 * Show uncertainty
