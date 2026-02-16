@@ -1,0 +1,18 @@
+1. Correlation Heatmap: 
+The heatmap shows that the corrleation bwtween mdeian air quality and cancer rate, and the corrleation bwtween mdeian air quality and median income 
+are extremely low. It suggests that public health outcomes like cancer are highly multifactorial, factors like median age, genetics, and historical 
+pollution exposure will likely play larger roles than a single year's AQI snapshot. Furthermore, the weak correlation between income and AQI indicates 
+that geographical environmental hazards, like wildfires or industrial zones can impact regions regardless of their median wealth.
+
+2. Box Plot:
+This visualization highlights the variance in environmental stability. While the median AQI might be similar across tiers, the "Low Income" tier typically 
+exhibits a wider box. This suggests that lower-income counties are subject to much more volatile and unpredictable spikes in poor air quality compared to 
+the more stable environments of high-income counties.
+
+3. Histogram:
+The data reveals that on the left side of the graph demonstrates that the vast majority of U.S. counties maintain a healthy, low Median AQI, typically under 45. 
+However, from the right, we can see there are some extreme outlier counties that suffer from severe environmental pollution.
+
+4. Scatter Plot:
+A moderate correlation here indicates that income alone does not perfectly predict air quality, prompting the need to look at other variables 
+such as population density.
