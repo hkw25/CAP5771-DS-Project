@@ -1,0 +1,6 @@
+Data Sources: 
+
+1. Population 60 years and over in the United States (U.S. Census Bureau)
+   https://data.census.gov/table/ACSST1Y2024.S0102?t=Age+and+Sex:Populations+and+People&g=010XX00US$0500000&y=2024
+2. Lung cancer dataset (National Cancer Institute)
+   https://www.statecancerprofiles.cancer.gov/
