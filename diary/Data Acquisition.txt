@@ -2,5 +2,12 @@ Data Sources:
 
 1. Population 60 years and over in the United States (U.S. Census Bureau)
    https://data.census.gov/table/ACSST1Y2024.S0102?t=Age+and+Sex:Populations+and+People&g=010XX00US$0500000&y=2024
+
 2. Lung cancer dataset (National Cancer Institute)
    https://www.statecancerprofiles.cancer.gov/
+
+3. Median household income in 2024 by country dataset (U.S. Census Bureau)
+   https://data.census.gov/table/ACSDT1Y2024.B19013?q=B19013:+Median+Household+Income+in+the+Past+12+Months+(in+2024+Inflation-Adjusted+Dollars)&g=010XX00US$0500000&y=2024
+
+4. Air Quality Index by country dataset (U.S. Environmental Protection Agency)
+   https://aqs.epa.gov/aqsweb/airdata/download_files.html
