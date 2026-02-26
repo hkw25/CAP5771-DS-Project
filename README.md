@@ -1,5 +1,16 @@
 # CAP5771 Project: Air Quality Inequality
 
+## Project Overview
+This project investigates the correlation between environmental hazards (Air Quality Index), socioeconomic status (Median Income, Demographics), and public health outcomes (Cancer Incidence Rates) at the U.S. county level. 
+
+## Repository Structure
+- `data/`: Contains raw CSV/Excel data files from the EPA, CDC, and US Census.
+- `diary/`: Project documentation covering problem formulation, data acquisition, and reflections.
+- `aqi_project.ipynb`: The primary executable Jupyter Notebook containing data cleaning, database schema creation, and exploratory data analysis.
+- `aqi_project.db`: The SQLite relational database.
+- `data_dictionary.pdf`: Documentation of all database variables and data types.
+- `requirements.txt`: Python environment dependencies.
+
 ## Project Problem Formulation
 
 ### 1. What type of problem would you need to solve?
