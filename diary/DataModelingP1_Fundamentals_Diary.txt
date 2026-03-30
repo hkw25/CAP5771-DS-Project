@@ -7,10 +7,15 @@ Explain your reasoning in terms of the problem type (regression vs classificatio
 3. What split will you decide for your train/validation/test? Why?
 
 
-   1. We chose Random Forest Classifier. This would be a classification problem as we are predicting whether a county is high or low AQI. Random Forest was chosen because it handles small datasets well, requires no scaling, and features importances directly answering the research question. Logistic regression on the other hand assumes linearity between features and outcome, which we don’t think would apply conveniently for our project.
+1. We chose Random Forest Classifier. 
+This would be a classification problem as we are predicting whether a county is high or low AQI.
+Random Forest was chosen because it handles small datasets well, requires no scaling, and features importances directly answering the research question. 
+Logistic regression on the other hand assumes linearity between features and outcome, which we don’t think would apply conveniently for our project.
 
 
-   2. Some assumptions our models make about the data are that counties are independent and median AQI has a meaningful high/low threshold.
+2. Some assumptions our models make about the data are that counties are independent and median AQI has a meaningful high/low threshold.
 
 
-   3. The split we will use is 80/20 train/test and 5-fold cross-validation on the training set. A 3-way split isn't ideal given the small county-level sample size and a separate validation set would be too small to be reliable. Cross-validation on the training data gives more stable performance estimates, and the 20% test set is only touched once at the end.
+3. The split we will use is 80/20 train/test and 5-fold cross-validation on the training set. 
+A 3-way split isn't ideal given the small county-level sample size and a separate validation set would be too small to be reliable. 
+Cross-validation on the training data gives more stable performance estimates, and the 20% test set is only touched once at the end.
