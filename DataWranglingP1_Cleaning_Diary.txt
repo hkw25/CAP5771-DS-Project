@@ -1,3 +1,5 @@
+Data Wrangling P1 Cleaning
+
 1. What are the top data problems you decided to fix first, and why these first?
 
    Missing data, many counties lacked lung cancer incidence_rate data. We cannot perform correlation analysis without this target      	variables.
