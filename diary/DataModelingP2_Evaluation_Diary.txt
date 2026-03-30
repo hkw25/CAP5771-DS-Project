@@ -1,0 +1,17 @@
+﻿Data Modeling P2 Evaluation Diary
+
+
+1. What evaluation metrics did you choose and why are they appropriate for your problem?
+2. How does your model compare to the baseline?
+3. What does feature importance suggest about the patterns your model is using?
+
+
+
+
+1. The evaluation metrics we chose were F1-score (primary), precision, recall, and confusion matrix. Accuracy alone is misleading if the high/low AQI split isn't perfectly balanced. F1 balances precision and recall is important here because false negatives (missing a high-pollution county) are more costly from a policy standpoint than false positives. The confusion matrix shows exactly where the model fails.
+
+
+2. The baseline is a majority-class classifier as it predicts "low AQI" for every county and gets ~50% accuracy (since the target is a median split). Any useful model needs to beat that. A second baseline worth comparing is logistic regression.
+
+
+3. Feature importance suggests a few things about the patterns our model is using. So we can predict that income and poverty rate should rank highest because they're the core environmental justice variables. Cancer rate may rank high if it's correlated with industrial/pollution exposure at the county level. And lastly, demographic variables may contribute but likely rank lower than economic ones.
