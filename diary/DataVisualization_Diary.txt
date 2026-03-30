@@ -14,6 +14,6 @@
 		      |--- Scatter Plot: Air Quality vs. Cancer.	
 		      |--- Histogram: Distribution of Cancer Rates.
  	    |--- Tab 2
-		      |--- Income Tier Dropdown: User can select different income tier to see the AQI distribution in different 			                        										 income level.
+		      |--- Income Tier Dropdown: User can select different income tier to see the AQI distribution in different income level.	 
 		      |--- Scatter Plot: Income vs. Air Quality.
               |--- Box Plot: Air Quality Distribution across Income Brackets.
