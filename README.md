@@ -10,6 +10,9 @@ This project investigates the correlation between environmental hazards (Air Qua
 - `aqi_project.db`: The SQLite relational database.
 - `data_dictionary.pdf`: Documentation of all database variables and data types.
 - `requirements.txt`: Python environment dependencies.
+- `data_wrangling.ipynb`: Create a reproducible pipeline to clean, merge, reshape, and validate the data.
+- `data_modeling.ipynb`: Random Forest classifer model used to report relevant metrics and provide a brief interpretation of results.
+- `data_visualization_static.ipynb`: A static dashboard that includes multiple visuals that highlight our key findings.
 
 ## Project Problem Formulation
 
