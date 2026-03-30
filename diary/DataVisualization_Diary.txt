@@ -1,0 +1,19 @@
+1. What is the main story or message your visualizations or article communicate?
+
+   	There are 2 parts of visualizations in the dashboard, Health (AQI and Cancer rate) and Economic (AQI and Income). 
+	
+	1. Health: Show the relationship between percentages of unhealthy air days and lung cancer incidence rates.
+	
+	2. Economic: Compare the air quality in different income level counties.
+
+2. Sketch of you dashboard or outline of your article sections
+	
+   Dashboard 	
+	    |--- Tab 1
+		      |--- Min Median AQI Slider: User can control the slider to see cancer rate under different AQI.
+		      |--- Scatter Plot: Air Quality vs. Cancer.	
+		      |--- Histogram: Distribution of Cancer Rates.
+ 	    |--- Tab 2
+		      |--- Income Tier Dropdown: User can select different income tier to see the AQI distribution in different 			                         income level.
+		      |--- Scatter Plot: Income vs. Air Quality.
+                      |--- Box Plot: Air Quality Distribution across Income Brackets.
