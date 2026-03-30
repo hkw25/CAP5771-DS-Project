@@ -1,0 +1,33 @@
+1. What features you engineered (or transformed), and why?
+
+  1. pct_unhealthy_air (Ratio Transformation):
+   
+   	How: Calculated by dividing unhealthy_days by days_aqi (total days monitored).
+
+   	Why: Raw counts of unhealthy days are highly misleading. A county with 50 unhealthy days out of 365 monitored is much 	healthier than a county with 50 unhealthy days out of only 100 monitored. This transformation created a standardized metric 	that fairly compares all counties regardless of their EPA monitoring capacity.
+
+  2.income_tier (Categorical Binning): 
+
+ 	How: Used quantile binning (pd.qcut) on the median_income column to create four distinct groups: Low, Med-Low, Med-High, and 	High.
+
+	Why: Visualizing the "wealth gap" in environmental justice requires comparing distinct socio-economic brackets. Continuous 	income data is too noisy for clear box plot distributions and dashboard dropdown filters.
+
+  3. pct_over_65 (Ratio Transformation)
+
+	How: Calculated by dividing the senior population (pop_65_and_over) by the total county population (total_pop).
+
+	Why: Raw population counts are heavily biased by county size. Because age is a huge factor for cancer incidence, converting 	this to a percentage isolates the actual demographic age profile of the community. 
+
+2. What did you remove during feature selection, and what is your justification (relevance/ethics/redundancy)?
+
+	days_co, days_no2, days_ozone, days_pm25, days_pm10, good_days, moderate_days (irrelevant)
+
+3. Include at least one before vs after summary (value counts, distributions, correlation, or a small snippet).
+
+   --- Before ---
+   Variable: 'total_pop', 'pop_65_and_over'	
+   Problem: 'pop_65_and_over' is useless on its own because it scales with county size.
+
+   --- After ---
+   New Variable: 'pct_over_65'
+   Benefit: Having a standardized metric.
