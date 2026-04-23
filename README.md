@@ -1,5 +1,7 @@
 # CAP5771 Project: Air Quality Inequality
 
+**[Live Project Dashboard](https://hkw25.github.io/CAP5771-DS-Project/AirQualityInequality.html)** 
+
 ## Project Overview
 This project investigates the correlation between environmental hazards (Air Quality Index), socioeconomic status (Median Income, Demographics), and public health outcomes (Cancer Incidence Rates) at the U.S. county level. 
 
