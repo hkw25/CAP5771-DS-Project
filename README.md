@@ -15,6 +15,8 @@ This project investigates the correlation between environmental hazards (Air Qua
 - `data_wrangling.ipynb`: Create a reproducible pipeline to clean, merge, reshape, and validate the data.
 - `data_modeling.ipynb`: Random Forest classifer model used to report relevant metrics and provide a brief interpretation of results.
 - `data_visualization_static.ipynb`: A static dashboard that includes multiple visuals that highlight our key findings.
+- `AirQualityInequality.html`: Put together web application file with findings and interactive dashboard.
+- `Air Quality Final Report.pdf`: Final report including final findings, visualizations, and link to deployed web application.
 
 ## Project Problem Formulation
 
